@@ -4,10 +4,69 @@
   "difficulty": "beginner",
   "time": "20 minutes",
   "details": {
-    "steps": [{
-      "title": "Step 1 - Run Command",
-      "text": "step1.md"
-    }],
+    "assets": {
+      "host01": [
+        {"file": "persistent-volume.yaml", "target": "/root", "chmod": "+rw"}
+      ]
+    },
+    "steps": [
+      {
+        "title": "Create a Namespace for Artifactory",
+        "text": "step1.md"
+      },
+      {
+        "title": "Create a Namespace for Artifactory",
+        "text": "step2.md"
+      },
+      {
+        "title": "Install Artifactory with Helm",
+        "text": "step3.md"
+      },
+      {
+        "title": "Install Artifactory with Helm",
+        "text": "step4.md"
+      },
+      {
+        "title": "Installed Resources",
+        "text": "step5.md"
+      },
+      {
+        "title": "Installed Resources",
+        "text": "step6.md"
+      },
+      {
+        "title": "Status of the Pods",
+        "text": "step7.md"
+      },
+      {
+        "title": "Status of the Pods",
+        "text": "step8.md"
+      },
+      {
+        "title": "Investigate NGINX",
+        "text": "step9.md"
+      },
+      {
+        "title": "Investigate NGINX",
+        "text": "step10.md"
+      },
+      {
+        "title": "Investigate Artifactory and Postgres",
+        "text": "step11.md"
+      },
+      {
+        "title": "Investigate Artifactory and Postgres",
+        "text": "step12.md"
+      },
+      {
+        "title": "Investigate Storage",
+        "text": "step13.md"
+      },
+      {
+        "title": "Investigate Storage",
+        "text": "step14.md"
+      }
+    ],
     "intro": {
       "text": "intro.md",
       "courseData": "setup.sh",

@@ -1,3 +1,5 @@
 #!/bin/bash
 
-PS1="JFrog:"
+PS1="JFrog $"
+
+exec bash
