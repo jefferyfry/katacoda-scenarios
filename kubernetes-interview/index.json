@@ -1,6 +1,6 @@
 {
-  "title": "Hello World Scenario",
-  "description": "Your First Scenario",
+  "title": "Kubernetes Interview",
+  "description": "This interactive session will test your knowledge of kubernetes.",
   "difficulty": "beginner",
   "time": "2 minutes",
   "details": {
@@ -21,6 +21,6 @@
     "uimessage1": "\u001b[32mYour Interactive Bash Terminal.\r\nStart Kubernetes using `launch.sh`\u001b[m\r\n"
   },
   "backend": {
-    "imageid": "bash"
+    "imageid": "kubernetes-cluster:1.18"
   }
 }
