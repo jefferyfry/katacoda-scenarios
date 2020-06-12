@@ -1,7 +1,8 @@
-This is your first step.
+## Create a Namespace for Artifactory
 
-## Task
+We would like to install Artifactory into a new namespace. Create the namespace
+`artifactory`. 
 
-This is an _example_ of creating a scenario and running a **command**
-
-`echo 'Hello World'`{{execute}}
+### Questions
+1. If we don't create a namespace, which namespace would it be created in?
+2. Why would we want to create a namespace?
