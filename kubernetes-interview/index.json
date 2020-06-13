@@ -4,15 +4,11 @@
   "difficulty": "beginner",
   "time": "20 minutes",
   "details": {
-    "assets": {
-      "host01": [
-        {"file": "persistent-volume.yaml", "target": "/root", "chmod": "+rw"}
-      ]
-    },
     "steps": [
       {
         "title": "Create a Namespace for Artifactory",
-        "text": "step1.md"
+        "text": "step1.md",
+        "courseData": "setup.sh"
       },
       {
         "title": "Create a Namespace for Artifactory",
