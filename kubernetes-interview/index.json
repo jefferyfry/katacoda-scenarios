@@ -7,8 +7,7 @@
     "steps": [
       {
         "title": "Create a Namespace for Artifactory",
-        "text": "step1.md",
-        "courseData": "setup.sh"
+        "text": "step1.md"
       },
       {
         "title": "Create a Namespace for Artifactory",
@@ -65,7 +64,6 @@
     ],
     "intro": {
       "text": "intro.md",
-      "courseData": "setup.sh",
       "credits": ""
     },
     "finish": {
